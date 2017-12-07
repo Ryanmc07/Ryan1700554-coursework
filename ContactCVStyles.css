@@ -1,0 +1,41 @@
+/*positions the h2 tag correctly for the contact page*/
+h2{
+  margin: 1%;
+}
+/*simillar to the home, this positions the background container in the center of the page*/
+section.Introduction{
+  background-color: #9BD1E5;
+  border-radius: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1%;
+  margin-bottom: 5%;
+  overflow: auto;
+  position: absolute;
+}
+/*sets the image in the correct position and rounds of the corners*/
+section.Introduction img{
+  width: 40%;
+  height: 30%;
+  border-radius: 25px;
+  padding: 2%;
+  float: right;
+}
+/*sets the position of the contact details*/
+ul, li{
+  margin-left: 1%;
+}
+/*sets the position of the twitter follow box*/
+.twitter-follow-button{
+    display: block;
+    margin-left: 18%;
+}
+/*this sest the position of the footer correctly on the contact page*/
+footer{
+  margin-bottom: 0;
+  width: 85%;
+  height: 10%;
+  margin-left: 11%;
+  font-size: 18px;
+  position: absolute;
+}

@@ -1,0 +1,84 @@
+/*This sets the header and the h1 tag on the Home page to be in the correct place, font and have the correct background colour*/
+header h1{
+  font-family: 'Muli',sans-serif;
+  text-align: center;
+  margin: 2%;
+  font-size:40px;
+  background-color: #9BD1E5;
+}
+/*This set all the h2 tags through the website to have a standard look and position*/
+h2{
+    font-family: 'Muli',sans-serif;
+    text-align: left;
+}
+
+/*This is setting the side navagation to be the same on the Projects, Education and contact page */
+header nav{
+  float: left;
+  margin: 0;
+  width: 10%;
+
+  background-color: #9BD1E5;
+  height: 100%;
+  padding: 1%;
+  overflow: auto;
+  position: fixed;
+}
+/*Size of the nav bar buttons and text*/
+header nav a:link{
+  display: block;
+  padding: 1% 3%;
+  text-decoration: none;
+}
+
+/*when the page is active the nav button will have a darker background*/
+header nav a.active{
+  background-color: #114B5F;
+  color: white;
+}
+/*when the cursor hovers over the navbar buttons then the background of the buttons will change colour*/
+header nav a:hover:not(.active){
+  background-color: #6A8EAE;
+  color: white;
+}
+/*sets the background to be a image*/
+body{
+      background-image: url("backgroundCV.jpg");
+      background-repeat: no-repeat;
+}
+/*The TextContainer has been used to ensure the text is easier to read, this is due to the background*/
+.TextContainer{
+  background: rgba(209, 250, 255, 0.7);
+  padding: 1%;
+}
+/*Sets the body text to be all to be standard through out the website, this includes the same font, font size and its position*/
+section.bodyText{
+  font-family: 'Muli',sans-serif;
+  margin-left: 10%;
+  padding: 1%;
+  font-size: 20px;
+}
+/*ensures that the table is poitioned correctly on the education page*/
+table{
+  margin: 1%;
+  width: 98%;
+}
+/*changes the colour of the table headings, this is just for looks*/
+th{
+  background-color: #114B5F;
+  color: white;
+}
+/*creates a border around the tables and sets the colour to black with 2px, it also set all the text within the table to be centered*/
+table,th,td{
+  text-align: center;
+  border: 2px solid black;
+  border-collapse: collapse;
+
+}
+/*ensures the footer (breadcrumbs) is along the bottom of each page*/
+footer{
+     bottom: 2%;
+     width: 85%;
+     margin-left: 11%;
+     font-size: 18px;
+}

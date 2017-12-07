@@ -1,0 +1,48 @@
+/*this sets position of the background container in the center of the page*/
+section.Introduction{
+  background-color: #9BD1E5;
+  border-radius: 25px;
+  margin-left: 25%;
+  margin-right: 25%;#
+  margin-top: 5%;
+  margin-bottom: 5%;
+  overflow: auto;
+}
+/*sets the image in the correct position and rounds of the corners*/
+section.Introduction img{
+  width: 40%;
+  height: 30%;
+  border-radius: 25px;
+  padding: 2%;
+  float: right;
+}
+/*ensures that the text is correctly positioned*/
+section.Introduction p{
+  width: 50%;
+  padding: 2%;
+  padding-top: 0%;
+}
+/*ensures the the heading of the page is correctly positioned, also it doesnt have a large gap between the heading and the introduction text*/
+.page-header{
+  padding: 1%;
+  padding-bottom:0%;
+}
+/*makes the buttons be positioned in the center of the page*/
+section.Buttons{
+  display: block;
+  margin-left: 22%;
+  margin-right: 11%;
+}
+/*this edits the size, colour and the text alignment of the buttons*/
+section.Buttons a:link, a:visited{
+  background-color: #9BD1E5;
+  color: black;
+  padding: 18px 35px;
+  border-radius: 25px;
+  text-align: center;
+  display: inline-block;
+}
+/*when the cursor hovers over the navbar buttons then the background of the buttons will change colour*/
+section.Buttons a:link, a:hover{
+  background-color: #6A8EAE;
+}
